@@ -10,3 +10,9 @@
 <title>Product pagina</title>
 <link href="Product pagina.css" rel="stylesheet" type="text/css">
 </head>
+<body>
+<p>hoi</p>
+
+
+</body>
+
