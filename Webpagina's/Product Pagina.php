@@ -20,11 +20,15 @@
             <il><a href="#">Contact</a></il>
             </ul>
         </nav>
-    <article><img src="img/inlog logo.png" alt="logo"></article>
-    <article><img src="img/search logo.png" alt="logo"></article>
+    <article><img src="img/inlog logo.png" alt="inlog logo"></article>
+    <article><img src="img/search logo.png" alt="search logo"></article>
 </header>
 <main>
-
+    <section class="item-drinks">
+        <article><img src="img/blue fire green apple.png" alt="blikje raspberry smaak"></article>
+        <article><img src="img/blue fire normal.png" alt="blikje standaart smaak"></article>
+        <article><img src="img/blue fire grape.png" alt="blikje grape smaak"></article>
+    </section>
 </main>
 <footer>
     <article>
