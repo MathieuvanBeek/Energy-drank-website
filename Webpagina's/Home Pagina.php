@@ -20,8 +20,8 @@
             <il><a href="#">Contact</a></il>
             </ul>
         </nav>
-    <article><img src="img/inlog logo.png" alt="logo"></article>
-    <article><img src="img/search logo.png" alt="logo"></article>
+    <article><img src="img/inlog logo.png" alt="inlog logo"></article>
+    <article><img src="img/search logo.png" alt="search logo"></article>
 </header>
 <main>
 </main>
