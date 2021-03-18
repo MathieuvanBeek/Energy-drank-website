@@ -3,8 +3,8 @@
 <meta charset="utf-8">
 <meta http-equiv="language" content="NL">
 <meta name="viewport" content="width=device, initial-scale=1">
-<meta name="description" content="">
-<meta name="author" content="Mathieu van Beek">
+<meta name="description" content="Diede">
+<meta name="author" content="">
 <meta name="keywords" content="">
 <link href="css/product pagina.css" rel="stylesheet" type="text/css">
 <title></title>
