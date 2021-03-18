@@ -14,9 +14,9 @@
     <article><img src="img/vuur logo.png" alt="logo"></article>
         <nav id="item-nav">
             <ul>
-            <il><a href="#">Home pagina</a></il>
-            <il><a href="#">Producten</a></il>
-            <il><a href="#">Over ons</a></il>
+            <il><a href="Home Pagina.php">Home pagina</a></il>
+            <il><a href="Product Pagina.php">Producten[</a></il>
+            <il><a href="Overons Pagina.php">Over ons</a></il>
             <il><a href="#">Contact</a></il>
             </ul>
         </nav>
@@ -24,6 +24,7 @@
     <article><img src="img/search logo.png" alt="logo"></article>
 </header>
 <main>
+
 </main>
 <footer>
     <article>
