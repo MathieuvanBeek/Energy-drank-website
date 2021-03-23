@@ -69,6 +69,25 @@
         margin-left: 5vw;
     }
 
+    main section {
+        display: flex;
+        flex-direction: row;
+    }
+
+    main img {
+        margin-top: 3vh;
+    }
+
+    main article:nth-child(1),main article:nth-child(3)  {
+        width: 35vh;
+        height: 35vh;
+        margin-top: 10vh;
+        border: 5px solid #33FDFE;
+        border-radius: 5%;
+        text-align: center;
+        color: var(--p-font-color);
+    }
+
     footer {
 		width: 90vw;
 		height: 8vh;

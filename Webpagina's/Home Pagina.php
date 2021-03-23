@@ -24,6 +24,11 @@
     <article><img src="img/search logo.png" alt="search logo"></article>
 </header>
 <main>
+    <section>
+        <article><h1>Events<h1></article>
+        <img src="img/blue fire raspberry new flavor.png" alt="raspberry new flavor">
+        <article><h1>Learn more<h1></article>
+    </section>
 </main>
 <footer>
     <article>
