@@ -25,6 +25,21 @@
 </header>
 <main>
 </main>
+    <section id="item-tekst">
+        <article>
+            <h1>Informatie over ons.</h1>
+        </article>
+        <article>
+            <p>Blue fire energie is opgericht in 2020 door een groep creatieve ondernemers.
+               De ondernemers willen dat energie geen slechte invloed heeft op de klant daarom besloten ze gezonde energie te maken.
+                
+            </p>
+            <p></p>
+            <p></p>
+            <p></p>
+        </article>
+        
+    </section>
 <footer>
     <article>
         <p>Privacybeleid</p>
