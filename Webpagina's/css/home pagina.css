@@ -51,7 +51,7 @@
 	}
 
     #item-nav a {
-        margin-left: 4vw;
+        margin-left: 1vw;
         text-decoration: none;
     }
 
@@ -93,8 +93,7 @@
     }
 
     footer article:nth-child(1) div {
-        margin-left: 35vw;
-        margin-right: 3vw;
+        margin-left: 20vw;
         color: var(--main-color);
     }
 
