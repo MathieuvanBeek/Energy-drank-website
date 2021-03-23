@@ -3,10 +3,10 @@
 <meta charset="utf-8">
 <meta http-equiv="language" content="NL">
 <meta name="viewport" content="width=device, initial-scale=1">
-<meta name="description" content="Energy over ons Pagina">
-<meta name="author" content="A. Chaaibi">
-<meta name="keywords" content="over ons Pagina Energy Drink Website">
-<link href="css/overons.css" rel="stylesheet" type="text/css">
+<meta name="description" content="Energy Contact Pagina">
+<meta name="author" content="Ayyoub Benhajar">
+<meta name="keywords" content="Contact Pagina Energy Drink Website">
+<link href="css/contact pagina.css" rel="stylesheet" type="text/css">
 <title></title>
 </head>
 <body>
@@ -16,7 +16,7 @@
             <ul>
             <il><a href="Home Pagina.php">Home pagina</a></il>
             <il><a href="Product Pagina.php">Producten</a></il>
-            <il><a href="Overons pagina.php">Over ons</a></il>
+            <il><a href="Overons pagina. php">Over ons</a></il>
             <il><a href="#">Contact</a></il>
             </ul>
         </nav>
