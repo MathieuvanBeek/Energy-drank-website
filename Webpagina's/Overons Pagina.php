@@ -24,7 +24,6 @@
     <article><img src="img/search logo.png" alt="search logo"></article>
 </header>
 <main>
-</main>
     <section id="item-tekst">
         <article>
             <h1>Informatie over ons.</h1>
@@ -35,6 +34,8 @@
             </p>   
         </article>
     </section>
+</main>
+    
 <footer>
     <article>
         <p>Privacybeleid</p>
