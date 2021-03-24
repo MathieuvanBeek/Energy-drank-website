@@ -96,5 +96,14 @@
         margin-left: 20vw;
         color: var(--main-color);
     }
+    #item-tekst{
+        background-color: var(--main-b-color);
+        height: 30vh;
+        width: 30vw;
+        color: var(--main-color);
+        top: 10vh;
+        margin-bottom: 10vh;
+        
+    }
 
 }
