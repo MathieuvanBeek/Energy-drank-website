@@ -98,6 +98,10 @@
 /* bigscreen */
 @media screen and (min-width: 769px) {
 
+    header article:nth-child(5){
+        display: none;
+    }
+
     html {
         background-color: var(--main-bg-color);
     }
