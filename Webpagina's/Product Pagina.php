@@ -6,7 +6,7 @@
 <meta name="description" content="Energy Product Pagina">
 <meta name="author" content="Diede">
 <meta name="keywords" content="Product Pagina Energy Drink Website">
-<link href="css/product pagina.css" rel="stylesheet" type="text/css">
+<link href="css/Product pagina.css" rel="stylesheet" type="text/css">
 <title></title>
 </head>
 <body> 
