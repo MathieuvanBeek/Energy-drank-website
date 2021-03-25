@@ -7,6 +7,7 @@
 <meta name="author" content="Mathieu van Beek">
 <meta name="keywords" content="Events Pagina Energy Drink Website">
 <link href="css/events pagina.css" rel="stylesheet" type="text/css">
+<script src="js/main script.js" type="text/javascript"></script>
 <title></title>
 </head>
 <body>
@@ -23,6 +24,16 @@
         </nav>
     <article><img src="img/inlog logo.png" alt="inlog logo"></article>
     <article><img src="img/search logo.png" alt="search logo"></article>
+    <article>
+    <p id="drop-nav">&#9776;</p>
+        <nav id="menu">
+                <a href="Home Pagina.php">Home pagina</a>
+                <a href="Product Pagina.php">Producten</a>
+                <a href="Overons pagina.php">Over ons</a>
+                <a href="Events Pagina.php">Events</a>
+                <a href="Contact pagina.php">Contact</a>
+        </nav>
+</article>
 </header>
 <main>
 </main>
@@ -31,7 +42,6 @@
         <p>Privacybeleid</p>
         <p>Cookiebeleid</p>
         <p>Voorwaarden</p>
-        <p>Contact</p>
         <div>&copy;Bluefire company</div>
     </article>
 </footer>
