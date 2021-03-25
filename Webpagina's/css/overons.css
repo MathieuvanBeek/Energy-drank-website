@@ -105,4 +105,18 @@
         border: 5px solid #33FDFE;
         padding: 5vh;
     }
+    #item-foto{
+        height: 50vh;
+        width: 30vw;
+        color: var(--main-color);
+        margin-top: -71.5vh;
+        margin-bottom: 10vh;
+        border: 5px solid #33FDFE;
+        padding: 5vh;
+        margin-left:40vw
+    }
+    #item-foto img{
+        height: 50vh;
+        width: 30vw;
+    }
 }
