@@ -21,6 +21,16 @@
             <il><a href="Contact Pagina.php">Contact</a></il>
             </ul>
         </nav>
+        <article>
+    <p id="drop-nav">&#9776;</p>
+        <nav id="menu">
+                <a href="Home Pagina.php">Home pagina</a>
+                <a href="Product Pagina.php">Producten</a>
+                <a href="Overons pagina.php">Over ons</a>
+                <a href="Events Pagina.php">Events</a>
+                <a href="Contact pagina.php">Contact</a>
+        </nav>
+</article>
     <article><img src="img/inlog logo.png" alt="inlog logo"></article>
     <article><img src="img/search logo.png" alt="search logo"></article>
 </header>
