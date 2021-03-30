@@ -39,7 +39,7 @@
         </article>
     </section>
     <section id="item-foto">
-        <img src="img/energie fabriek.jpg" alt="een foto van onze fabriek">
+        <img src="img/fabriek.jpg" alt="een foto van onze fabriek">
     </section>
 </main>
     

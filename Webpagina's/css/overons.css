@@ -3,7 +3,116 @@
 
 /* CSS Document */
 @media screen and (min-width: 100px) and (max-width:768.9px) {
+    html {
+        background-color: var(--main-bg-color);
+    }
 
+    body {
+        width: 90vw;
+        margin-left: 4vw;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    header {
+		width: 90vw;
+		height: 8vh;
+		display: flex;
+		flex-direction: row;
+        align-items: center;
+        border: 5px solid #33FDFE;
+	}
+
+    header article {
+		display: flex;
+		flex-direction: row;
+	}
+
+    header article:nth-child(1) img {
+        margin-left: 2.5vw;
+        width: 2.5vw;
+    }
+
+    header article:nth-child(3) img, header article:nth-child(4) img {
+        width: 5vw;
+    }
+
+    header article:nth-child(3) img {
+        margin-left: 20vw;
+    }
+    
+    #item-nav ul{
+        font-size: var(--p-font-size);
+	}
+
+    #item-nav a {
+        margin-left: 1vw;
+        text-decoration: none;
+    }
+
+    #item-nav a:link, a:active, a:visited {
+		color: var(--p-font-color);
+	}
+
+    #item-nav a:hover {
+		color: var(--main-color);
+	}
+
+    main {
+        width: 90vw;
+        height: 70vh;
+        margin-left: 5vw;
+    }
+
+    footer {
+		width: 90vw;
+		height: 8vh;
+        border: 5px solid #33FDFE;
+    }
+
+    footer article {
+        display: flex;
+        flex-direction: row;
+    }
+
+    footer article:nth-child(1) {
+        align-items: center;
+        margin-right: 3.5vw;
+    }
+
+    footer article:nth-child(1) p {
+        margin-left: 2.5vw;
+        margin-right: 3vw;
+        font-size: 1.5rem;
+        color: var(--p-font-color);
+    }
+
+    footer article:nth-child(1) div {
+        margin-left: 20vw;
+        color: var(--main-color);
+    }
+    #item-tekst{
+        height: 50vh;
+        width: 30vw;
+        color: var(--main-color);
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+        border: 5px solid #33FDFE;
+        padding: 5vh;
+    }
+    #item-foto{
+        height: 50vh;
+        width: 30vw;
+        color: var(--main-color);
+        margin-top: -71.5vh;
+        margin-bottom: 10vh;
+        border: 5px solid #33FDFE;
+        padding: 5vh;
+        margin-left:40vw
+    }
+    #item-foto img{
+        height: 50vh;
+        width: 30vw;
+    }
 }
 
 /* bigscreen */
