@@ -190,4 +190,7 @@
         height: 50vh;
         width: 30vw;
     }
+    header article:nth-child(5){
+        display: none;
+    }
 }
