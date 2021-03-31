@@ -45,6 +45,31 @@
         <div>&copy;Bluefire company</div>
     </article>
 </footer>
+<?php
+    $host = "localhost";
+    $user = "root";
+    $pass = "";
+    $database = "energy";
+
+    $conn = new mysqli($host, $user, $pass, $database);
+
+    if ($conn->connect_error){
+        echo "jij bent slecht in coderen";
+    }
+
+    $sql = "SELECT * FROM artiesten";
+    $result = $conn->query($sql);
+
+    if($result = $conn->query($sql)){
+        while($row = $result->fetch_array(MYSQLI_BOTH)){
+            echo $row["voornaam"]." ".$row["tussenvoegsel"]." ".$row["achternaam"]."<br/>";
+        }
+    }
+
+    $result->close();
+    $conn->close();
+
+    ?>>
 </body>
 </html>
 
