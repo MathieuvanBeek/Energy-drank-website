@@ -7,6 +7,7 @@
 <meta name="author" content="A. Chaaibi">
 <meta name="keywords" content="over ons Pagina Energy Drink Website">
 <link href="css/overons.css" rel="stylesheet" type="text/css">
+<script src="js/main script.js" type="text/javascript"></script>
 <title></title>
 </head>
 <body>
@@ -36,17 +37,14 @@
 </header>
 <main>
     <section id="item-tekst">
-        <article>
+        
             <h1>Informatie over ons.</h1>
-        </article>
-        <article>
             <p>Blue fire energie is opgericht in 2020 door een groep creatieve ondernemers.
                De ondernemers willen dat de energiedrank geen slechte invloed heeft op de klant zijn gezondheid, 
                daarom besloten we gezonde energiedrank te maken. Wij hebben 20 fabrieken waar onze energiedrank word geproduceert.
                We waren begonnen met verkopen in de jumbo Leiden dat was een succes naarmate het steeds beter verkocht besloten we landelijk 
                in alle jumbo's onze energiedrank te verkopen. Sinds 2021 is blue fire energie in elke winkel verkrijgbaar.
             </p>   
-        </article>
     </section>
     <section id="item-foto">
         <img src="img/fabriek.jpg" alt="een foto van onze fabriek">
