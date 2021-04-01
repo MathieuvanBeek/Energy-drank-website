@@ -38,7 +38,7 @@
 <main>
     <section class="item-drinks">
         <button id="readArray">click</button>
-        <div></div>
+        <div id="test" style ="width:200px; height:200px;"></div>
     </section>
 </main>
 <footer>
