@@ -36,8 +36,8 @@
 </article>
 </header>
 <main>
-<p>Smaken</p>
-        <div id="test"></div>
+    <p>Smaken</p>
+    <div id="test"></div>
 </main>
 <footer>
     <article>
