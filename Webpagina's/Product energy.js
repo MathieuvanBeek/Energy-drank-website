@@ -1,5 +1,5 @@
 var test;
-var slideShowArray = ['grape Blue fire', 'normal Blue fire ', 'green apple Blue fire', 'rasberry Blue fire'];
+var slideShowArray = ['blue fire grape ',  'blue fire normal ', 'blue fire green apple ', 'blue fire rasberry'];
 var index = 0;
 
 window.onload = function(){
