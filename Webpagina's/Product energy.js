@@ -8,7 +8,7 @@ window.onload = function(){
 }
 
 function slideShow(){
-    test.style.backgroundImage = "url(img/" + slideShowArray[index] + ".PNG)";
+    test.style.backgroundImage = "url(img/" + slideShowArray[index] + ".png)";
     index++; 
     if(index == slideShowArray.length){
         index = 0;
