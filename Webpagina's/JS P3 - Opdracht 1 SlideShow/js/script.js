@@ -1,5 +1,5 @@
 var test;
-var slideShowArray = ['blue fire grape ',  'blue fire normal ', 'blue fire green apple ', 'blue fire rasberry'];
+var slideShowArray = ['pizzakaas', 'pizzaham', 'pizzasalami', 'pizzahawaii', 'pizzamargherita'];
 var index = 0;
 
 window.onload = function(){
@@ -8,7 +8,7 @@ window.onload = function(){
 }
 
 function slideShow(){
-    test.style.backgroundImage = "url(img/" + slideShowArray[index] + ".png)";
+    test.style.backgroundImage = "url(img/" + slideShowArray[index] + ".jpg)";
     index++; 
     if(index == slideShowArray.length){
         index = 0;
