@@ -12,12 +12,14 @@ var slideShow = ['normal Blue fire','green apple Blue fire','grape Blue fire','r
 window.onload = fuction(){
     test = document.getElementById("test");
 
+    setInterval(slideShow, 1000);
+
 }
 
 function slideShow(){
-    test.style.backgroundImage = "url(img/" + slideShow[index] + ".png)";
+    test.style.backgroundImage = "url(img/" + slideShowArray[index] + ".png)";
     index++;
-    if(index == slideShow.length-1){
+    if(index == slideShowArray.length-1){
       index = 0;
 }
 }
