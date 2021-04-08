@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @import url("variabelen.css");
-
+@media screen and (min-width: 100px) and (max-width:768.9px) {
 html {
     background-color: var(--main-bg-color);
 }
@@ -14,11 +14,6 @@ body {
 header {
     width: 90vw;
     height: 8vh;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    border: 5px solid #33FDFE;
-    margin-bottom: 7%;
 }
 
 header article {
@@ -115,19 +110,28 @@ footer article:nth-child(1) div {
     width: 30%;
     padding: 8px 6px;
 }
-
+}
 
 /* CSS Document */
 @media screen and (min-width: 100px) and (max-width:600px) {
+    #item-nav, header article:nth-child(3) img, header article:nth-child(4) img {
+        display: none
+    }
+
+    html {
+        background-color: var(--main-bg-color);
+    }
+
+    body {
+        width: 90vw;
+        margin-left: 4vw;
+        font-family: 'Roboto', sans-serif;
+    }
+
     header {
 		width: 90vw;
 		height: 8vh;
-        border: none;
 	}
-
-    #item-nav, header article:nth-child(3) img, header article:nth-child(4) img {
-        display: none;
-    }
 
     header article:nth-child(5) {
 		display: flex;
@@ -141,7 +145,7 @@ footer article:nth-child(1) div {
         width: 10vw;
     }
 
-    #drop-nav {
+	#drop-nav {
         font-size: 2rem;
         color: white;
 		display: flex;
@@ -150,26 +154,26 @@ footer article:nth-child(1) div {
 	}
 
     #menu {
-        display: flex;
-        flex-direction: row;
+		display: flex;
+		flex-direction: row;
         margin-top: 5.5vh;
         margin-right: 2vw;
-    }
- 
-    #menu a {
-        font-size: 0.7rem;
+	}
+
+	#menu a {
+		font-size: 0.7rem;
         margin-left: 2.3vw;
         margin-top:0.4vh;
-        text-decoration: none;
-    }
- 
-    #menu a:hover {
-        color: var(--main-color);
-    }
- 
-    #menu a:active, a:visited { 
-        color: white;
-    }
+		text-decoration: none;
+	}
+
+	#menu a:hover {
+		color: var(--main-color);
+	}
+
+	#menu a:active, a:visited { 
+		color: white;
+	}
     #form button#button {
         width: 45%;
     }
