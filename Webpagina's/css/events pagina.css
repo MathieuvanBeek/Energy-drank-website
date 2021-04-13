@@ -163,6 +163,10 @@
         margin-left: 5vw;
     }
 
+    main section {
+        color: red
+    }
+
     footer {
 		width: 90vw;
 		height: 8vh;

@@ -36,15 +36,6 @@
 </article>
 </header>
 <main>
-</main>
-<footer>
-    <article>
-        <p>Privacybeleid</p>
-        <p>Cookiebeleid</p>
-        <p>Voorwaarden</p>
-        <div>&copy;Bluefire company</div>
-    </article>
-</footer>
 <?php
     $host = "localhost";
     $user = "root";
@@ -54,22 +45,33 @@
     $conn = new mysqli($host, $user, $pass, $database);
 
     if ($conn->connect_error){
-        echo "jij bent slecht in coderen";
+        die("Geeft een error");
     }
 
-    $sql = "SELECT * FROM artiesten";
-    $result = $conn->query($sql);
-
+    $sql = "SELECT * FROM artiesten";    
     if($result = $conn->query($sql)){
-        while($row = $result->fetch_array(MYSQLI_BOTH)){
-            echo $row["voornaam"]." ".$row["tussenvoegsel"]." ".$row["achternaam"]."<br/>";
-        }
-    }
-
+        $row = $result->fetch_object();
+        echo "<section class='artiesten'>".$row->naam."</section>";
+    
     $result->close();
-    $conn->close();
-
-    ?>>
+    }else{
+        echo "query mislukt";
+    }
+    ?>
+</main>
+<footer>
+    <article>
+        <p>Privacybeleid</p>
+        <p>Cookiebeleid</p>
+        <p>Voorwaarden</p>
+        <div>&copy;Bluefire company</div>
+    </article>
+</footer>
 </body>
 </html>
+<?php
+
+$conn->close();
+
+?>
 
