@@ -1,3 +1,15 @@
+<?php
+    $host = "localhost";
+    $user = "root";
+    $pass = "";
+    $database = "energy";
+
+    $conn = new mysqli($host, $user, $pass, $database);
+
+    if ($conn->connect_error){
+        die("Geeft een error");
+    }
+?>
 <!doctype html>
 <html>
 <meta charset="utf-8">
@@ -37,21 +49,10 @@
 </header>
 <main>
 <?php
-    $host = "localhost";
-    $user = "root";
-    $pass = "";
-    $database = "energy";
-
-    $conn = new mysqli($host, $user, $pass, $database);
-
-    if ($conn->connect_error){
-        die("Geeft een error");
-    }
-
     $sql = "SELECT * FROM artiesten";    
     if($result = $conn->query($sql)){
         $row = $result->fetch_object();
-        echo "<section class='artiesten'>".$row->naam."</section>";
+        echo "<section class='artiesten'>".$row->naam."</section>"  ;
     
     $result->close();
     }else{
@@ -70,8 +71,6 @@
 </body>
 </html>
 <?php
-
 $conn->close();
-
 ?>
 
