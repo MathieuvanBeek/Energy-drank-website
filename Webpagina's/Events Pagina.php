@@ -48,15 +48,15 @@
 </article>
 </header>
 <main>
+
 <?php
-    $sql = "SELECT * FROM artiesten";    
-    if($result = $conn->query($sql)){
-        $row = $result->fetch_object();
-        echo "<section class='artiesten'>".$row->naam."</section>"  ;
-    
-    $result->close();
-    }else{
-        echo "query mislukt";
+
+    $sql = "SELECT * FROM artiesten";  
+    $query = mysqli_query($conn, $sql);
+    while($row = mysqli_fetch_array($query)){
+        
+        echo "<section class='artiesten'>$row[naam]</section>";
+        
     }
     ?>
 </main>
