@@ -55,7 +55,7 @@
     $query = mysqli_query($conn, $sql);
     while($row = mysqli_fetch_array($query)){
         
-        echo "<section class='artiesten'>$row[naam]</section>";
+        echo "<section id='artiesten'>$row[naam]</section>";
         
     }
     ?>
