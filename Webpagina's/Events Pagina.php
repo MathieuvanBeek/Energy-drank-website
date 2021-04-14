@@ -48,6 +48,10 @@
 </article>
 </header>
 <main>
+    <section id="item-artiest">
+        <h1>Artiesten die komen</h1>
+        <article><img src="img/evlis presley.jpeg" alt="elvis presley"></article>
+    </section>
 
 <?php
 
