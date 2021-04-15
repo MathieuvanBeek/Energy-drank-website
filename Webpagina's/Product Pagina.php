@@ -36,14 +36,8 @@
 </article>
 </header>
 <main>
-<<<<<<< HEAD
-    <section class="item-drinks">
-        <div id="test"></div>
-    </section>
-=======
     <p>Smaken</p>
     <div id="test"></div>
->>>>>>> f28068742c4a208d34e6579f6650832150dd2a22
 </main>
 <footer>
     <article>
