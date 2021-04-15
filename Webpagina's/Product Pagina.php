@@ -36,8 +36,10 @@
 </article>
 </header>
 <main>
-<p>Smaken</p>
-        <div id="test"></div>
+    <section class="item-drinks">
+        <button id="readArray">click</button>
+        <div id="test" style ="width:200px; height:200px;"></div>
+    </section>
 </main>
 <footer>
     <article>

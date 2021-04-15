@@ -190,15 +190,4 @@
         color: var(--main-color);
     }
 
-    p{
-		font-size: 2rem;
-		padding-left: 10vw;
-	}
-
-	#test{
-		width: 500px;
-		height: 500px;
-		border: 3px #33FDFE;
-	}
-
 }

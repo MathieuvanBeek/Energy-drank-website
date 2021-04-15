@@ -1,16 +1,23 @@
 var test;
-var slideShowArray = ['blue fire grape ',  'blue fire normal ', 'blue fire green apple ', 'blue fire rasberry'];
+var button;
 var index = 0;
 
-window.onload = function(){
+var blikjes = ['Normal','Green Apple','Grape','Rasberry'];
+
+var slideShow = ['normal Blue fire','green apple Blue fire','grape Blue fire','rasberry Blue fire'];
+
+
+
+
+window.onload = fuction(){
     test = document.getElementById("test");
-    setInterval(slideShow, 3500);
+
 }
 
 function slideShow(){
-    test.style.backgroundImage = "url(img/" + slideShowArray[index] + ".png)";
-    index++; 
-    if(index == slideShowArray.length){
-        index = 0;
-    }
+    test.style.backgroundImage = "url(img/" + slideShow[index] + ".png)";
+    index++;
+    if(index == slideShow.length-1){
+      index = 0;
+}
 }
