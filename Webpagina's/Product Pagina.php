@@ -38,8 +38,7 @@
 <main>
 <<<<<<< HEAD
     <section class="item-drinks">
-        <button id="readArray">click</button>
-        <div id="test" style ="width:200px; height:200px;"></div>
+        <div id="test"></div>
     </section>
 =======
     <p>Smaken</p>

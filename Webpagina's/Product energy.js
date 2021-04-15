@@ -1,8 +1,5 @@
 var test;
-var button;
 var index = 0;
-
-var blikjes = ['Normal','Green Apple','Grape','Rasberry'];
 
 var slideShow = ['normal Blue fire','green apple Blue fire','grape Blue fire','rasberry Blue fire'];
 
@@ -11,8 +8,9 @@ var slideShow = ['normal Blue fire','green apple Blue fire','grape Blue fire','r
 
 window.onload = fuction(){
     test = document.getElementById("test");
-
+   setInterval(slideShow, 3500);
 }
+
 
 function slideShow(){
     test.style.backgroundImage = "url(img/" + slideShow[index] + ".png)";
