@@ -71,6 +71,25 @@
         margin-left: 5vw;
     }
 
+    #item-artiest {
+        margin-top: 10vh;
+        color: white;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #item-artiest article img {
+        width: 40vw;
+        align-items: center;
+    }
+
+    #artiesten {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        font-size: 0.8rem;
+    }
+
     footer {
 		width: 90vw;
 		height: 8vh;
@@ -161,6 +180,19 @@
         width: 90vw;
         height: 70vh;
         margin-left: 5vw;
+    }
+
+    #item-artiest {
+        margin-top: 10vh;
+        color: white;
+    }
+
+    #item-artiest article img {
+        width: 20vw;
+    }
+
+    #artiesten {
+        color: white;
     }
 
     footer {

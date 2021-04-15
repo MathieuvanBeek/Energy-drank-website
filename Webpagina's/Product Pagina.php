@@ -36,10 +36,15 @@
 </article>
 </header>
 <main>
+<<<<<<< HEAD
     <section class="item-drinks">
         <button id="readArray">click</button>
         <div id="test" style ="width:200px; height:200px;"></div>
     </section>
+=======
+    <p>Smaken</p>
+    <div id="test"></div>
+>>>>>>> f28068742c4a208d34e6579f6650832150dd2a22
 </main>
 <footer>
     <article>

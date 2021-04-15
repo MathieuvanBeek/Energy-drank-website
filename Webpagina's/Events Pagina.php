@@ -1,3 +1,15 @@
+<?php
+    $host = "localhost";
+    $user = "root";
+    $pass = "";
+    $database = "energy";
+
+    $conn = new mysqli($host, $user, $pass, $database);
+
+    if ($conn->connect_error){
+        die("Geeft een error");
+    }
+?>
 <!doctype html>
 <html>
 <meta charset="utf-8">
@@ -36,6 +48,21 @@
 </article>
 </header>
 <main>
+    <section id="item-artiest">
+        <h1>Artiesten die komen</h1>
+        <article><img src="img/evlis presley.jpeg" alt="elvis presley"></article>
+    </section>
+
+<?php
+
+    $sql = "SELECT * FROM artiesten";  
+    $query = mysqli_query($conn, $sql);
+    while($row = mysqli_fetch_array($query)){
+        
+        echo "<section id='artiesten'>$row[naam]</section>";
+        
+    }
+    ?>
 </main>
 <footer>
     <article>
@@ -45,31 +72,9 @@
         <div>&copy;Bluefire company</div>
     </article>
 </footer>
-<?php
-    $host = "localhost";
-    $user = "root";
-    $pass = "";
-    $database = "energy";
-
-    $conn = new mysqli($host, $user, $pass, $database);
-
-    if ($conn->connect_error){
-        echo "jij bent slecht in coderen";
-    }
-
-    $sql = "SELECT * FROM artiesten";
-    $result = $conn->query($sql);
-
-    if($result = $conn->query($sql)){
-        while($row = $result->fetch_array(MYSQLI_BOTH)){
-            echo $row["voornaam"]." ".$row["tussenvoegsel"]." ".$row["achternaam"]."<br/>";
-        }
-    }
-
-    $result->close();
-    $conn->close();
-
-    ?>>
 </body>
 </html>
+<?php
+$conn->close();
+?>
 

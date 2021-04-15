@@ -38,7 +38,7 @@
 <main>
     <section>
         <article><a href="Events Pagina.php">Events</a></article>
-        <img src="img/blue fire raspberry new flavor.png" alt="raspberry new flavor">
+        <img src="img/ new raspberry.png" alt="raspberry new flavor">
         <article><a href="Product Pagina.php">Learn more</a></article>
     </section>
 </main>
