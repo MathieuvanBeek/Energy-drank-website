@@ -58,7 +58,6 @@
             <p>Privacybeleid</p>
             <p>Cookiebeleid</p>
             <p>Voorwaarden</p>
-            <p>Contact</p>
             <div>&copy;Bluefire company</div>
         </article>
     </footer>
