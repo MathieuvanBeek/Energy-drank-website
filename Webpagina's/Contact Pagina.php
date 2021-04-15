@@ -19,8 +19,9 @@
                 <il><a href="Home Pagina.php">Home pagina</a></il>
                 <il><a href="Product Pagina.php">Producten</a></il>
                 <il><a href="Overons pagina.php">Over ons</a></il>
-                <il><a href="Contact pagina.php">Contact</a></il>
                 <il><a href="Events pagina.php">Events</a></il>
+                <il><a href="Contact pagina.php">Contact</a></il>
+                
                 </ul>
             </nav>
         <article><img src="img/inlog logo.png" alt="inlog logo"></article>
