@@ -7,7 +7,6 @@
 <meta name="author" content="Diede">
 <meta name="keywords" content="Product Pagina Energy Drink Website">
 <link href="css/Product pagina.css" rel="stylesheet" type="text/css">
-<script scr="js/Product energy.js" type="text/javascript"></script>
 <title></title>
 </head>
 <body> 
@@ -37,7 +36,10 @@
 </header>
 <main>
     <p>Smaken</p>
-    <div id="test"></div>
+    <article><img scr="img/grape Blue fire.png" alt="Blue fire Grape smaak"></article>
+    <article><img scr="img/normal Blue fire.png" alt="Blue fire Normal smaak"></article>
+    <article><img scr="img/raspberry Blue fire.png" alt="Blue fire Raspberry smaak"></article>
+    <article><img scr="img/green apple Blue fire.png" alt="Blue fire Green apple smaak"></article>
 </main>
 <footer>
     <article>
